@@ -4,6 +4,7 @@ core libraries for poly-next cli and middleware
 ## CLI
 
 See: [https://github.com/jrmerz/poly-next](https://github.com/jrmerz/poly-next)
+Or: [https://www.npmjs.com/package/poly-next](https://www.npmjs.com/package/poly-next)
 
 ## Config
 
@@ -30,3 +31,11 @@ app.use(express.static(config.root));
 
 app.listen(config.port);
 ```
+
+## Polyfills
+
+While servePolyfill=true, the webcomponent polyfills will be served from:
+
+- /webcomponentsjs/full.js
+- /webcomponentsjs/lite.js
+- /webcomponentsjs/micro.js
