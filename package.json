@@ -1,6 +1,6 @@
 {
   "name": "poly-next-core",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "core libraries for poly-next cli and middleware",
   "main": "index.js",
   "scripts": {
@@ -31,6 +31,7 @@
     "babelify": "^7.2.0",
     "browserify": "^13.0.0",
     "mkdirp": "^0.5.1",
+    "socket.io": "^1.4.6",
     "tsify": "^0.15.3",
     "vulcanize": "^1.14.8",
     "walk": "^2.3.9",
